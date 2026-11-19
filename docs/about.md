@@ -34,7 +34,6 @@ I actively share Python notes, project updates, and learnings across the followi
 
 - 💼 **LinkedIn**: [linkedin.com/in/tanishk-gupta18](https://www.linkedin.com/in/tanishk-gupta18/)
 - 🐙 **GitHub**: [github.com/tanishkgupta-18](https://github.com/tanishkgupta-18)
-- 📁 **Repository**: [github.com/tanishkgupta-18/python_resources](https://github.com/tanishkgupta-18/python_resources)
 
 ---
 

@@ -117,14 +117,43 @@ c3 = Calculator(10, 20)  # Output: Two arguments: 10 20
 
 ## 4. The Four Pillars of OOP
 
-```mermaid
-flowchart TD
-    OOP["Four Pillars of OOP"]
-    OOP --> E["1. Encapsulation\n(Data Protection & Bundling)"]
-    OOP --> A["2. Abstraction\n(Hiding Complexity)"]
-    OOP --> I["3. Inheritance\n(Code Reusability)"]
-    OOP --> P["4. Polymorphism\n(One Interface, Multiple Forms)"]
-```
+<div class="pillars-grid">
+  <div class="pillar-card">
+    <div class="pillar-header">
+      <span class="pillar-num">Pillar 01</span>
+      <span class="pillar-tag">Data Protection</span>
+    </div>
+    <h4>Encapsulation</h4>
+    <p>Binds data attributes and methods together into a protective unit while restricting direct external access.</p>
+  </div>
+
+  <div class="pillar-card">
+    <div class="pillar-header">
+      <span class="pillar-num">Pillar 02</span>
+      <span class="pillar-tag">Hide Complexity</span>
+    </div>
+    <h4>Abstraction</h4>
+    <p>Hides internal implementation details and exposes only the essential public interface via abstract base classes.</p>
+  </div>
+
+  <div class="pillar-card">
+    <div class="pillar-header">
+      <span class="pillar-num">Pillar 03</span>
+      <span class="pillar-tag">Code Reuse</span>
+    </div>
+    <h4>Inheritance</h4>
+    <p>Allows a child class to acquire attributes and methods from parent classes, eliminating duplicate logic.</p>
+  </div>
+
+  <div class="pillar-card">
+    <div class="pillar-header">
+      <span class="pillar-num">Pillar 04</span>
+      <span class="pillar-tag">Multiple Forms</span>
+    </div>
+    <h4>Polymorphism</h4>
+    <p>Enables a unified method or operator to exhibit different behaviors across distinct object types.</p>
+  </div>
+</div>
 
 ---
 

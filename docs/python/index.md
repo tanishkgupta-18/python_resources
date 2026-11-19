@@ -6,17 +6,39 @@ Whether you are revising before technical interviews or looking up specific synt
 
 ---
 
-## 🗺️ Learning Path Structure
+## 🗺️ Learning Path Progression
 
-The curriculum is structured across five key pedagogical pillars:
-
-```mermaid
-flowchart LR
-    A["1. Fundamentals\n(Essentials, Numbers, Strings)"] --> B["2. Logic & Control\n(Operators, Conditionals, Loops)"]
-    B --> C["3. Functions\n(Params, *args/**kwargs, Types)"]
-    C --> D["4. Data Structures\n(Lists, Tuples, Sets, Dicts)"]
-    D --> E["5. OOP in Python\n(Classes, 4 Pillars, Dunders)"]
-```
+<div class="learning-flow">
+  <div class="flow-step">
+    <div class="step-num">Step 1</div>
+    <div class="step-title">Fundamentals</div>
+    <div class="step-desc">Essentials, Numbers, Strings</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-num">Step 2</div>
+    <div class="step-title">Logic & Control</div>
+    <div class="step-desc">Operators, Conditionals, Loops</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-num">Step 3</div>
+    <div class="step-title">Functions</div>
+    <div class="step-desc">Params, *args, **kwargs, Types</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-num">Step 4</div>
+    <div class="step-title">Data Structures</div>
+    <div class="step-desc">Lists, Tuples, Sets, Dicts</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-num">Step 5</div>
+    <div class="step-title">OOP Architecture</div>
+    <div class="step-desc">Classes, 4 Pillars, Dunders</div>
+  </div>
+</div>
 
 ---
 

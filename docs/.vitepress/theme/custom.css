@@ -211,6 +211,121 @@
   margin-top: auto;
 }
 
+/* Four Pillars of OOP Grid */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.pillar-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  padding: 1.25rem;
+  background-color: var(--vp-c-bg-soft);
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.pillar-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.08);
+}
+
+.pillar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.pillar-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+.pillar-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--vp-c-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pillar-card h4 {
+  margin: 0.25rem 0 0.5rem 0 !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.pillar-card p {
+  margin: 0 !important;
+  font-size: 0.88rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.5;
+}
+
+/* Learning Progression Flow */
+.learning-flow {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.flow-step {
+  flex: 1;
+  min-width: 150px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 0.9rem;
+  background-color: var(--vp-c-bg-soft);
+  text-align: center;
+}
+
+.step-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--vp-c-brand-1);
+  margin-bottom: 0.25rem;
+}
+
+.step-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.25rem;
+}
+
+.step-desc {
+  font-size: 0.78rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.4;
+}
+
+.flow-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--vp-c-text-3);
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0 0.25rem;
+}
+
 /* Mobile responsive adjustments */
 @media (max-width: 640px) {
   .topics-grid {
@@ -219,6 +334,13 @@
   .pub-section-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .learning-flow {
+    flex-direction: column;
+  }
+  .flow-arrow {
+    transform: rotate(90deg);
+    padding: 0.25rem 0;
   }
 }
 
