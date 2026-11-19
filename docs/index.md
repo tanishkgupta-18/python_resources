@@ -2,41 +2,41 @@
 layout: home
 
 hero:
-  name: "HumDev"
+  name: "devhum"
   text: "Learn. Build. Share."
-  tagline: "A developer's knowledge space for exploring technology, understanding engineering concepts and sharing what I build."
+  tagline: "A developer's knowledge platform solely dedicated to Python programming, language architecture, and clean code."
   actions:
     - theme: brand
       text: Explore Python Series →
       link: /python/
     - theme: alt
-      text: About HumDev
+      text: About devhum
       link: /about
 
 features:
   - icon: 🧠
     title: Learn Fundamental Concepts
-    details: Deconstruct language mechanics, execution models, and algorithmic fundamentals through crisp, concept-first notes.
+    details: Deconstruct Python language mechanics, execution models, and data structure internals through crisp, concept-first notes.
   - icon: ⚙️
     title: Build with Real Code
     details: Every concept is paired with tested, executable code snippets, expected outputs, and common engineering trade-offs.
   - icon: 🚀
     title: Share in Public
-    details: Curated as a living engineering repository and digital garden, designed for fast reference and continuous learning.
+    details: Curated as a dedicated Python digital garden and reference handbook, designed for fast revision and interview preparation.
 ---
 
 <div class="vp-doc" style="max-width: 1152px; margin: 0 auto; padding: 1.5rem 1.5rem 3rem 1.5rem;">
 
 <div class="pub-section-header">
   <div>
-    <span class="track-active">● Active Knowledge Series</span>
+    <span class="track-active">● Complete Knowledge Track</span>
     <h2 style="margin-top: 0.5rem !important;">Python Language Architecture</h2>
   </div>
-  <span>10 Comprehensive Modules • From Essentials to Internals</span>
+  <span>11 Comprehensive Modules • From Essentials to Object-Oriented Design</span>
 </div>
 
 <p style="color: var(--vp-c-text-2); font-size: 1.05rem; margin-top: 0.25rem;">
-  A structured, modular learning path exploring Python's syntax, memory model, functional constructs, and standard data structures.
+  A structured, modular learning path exploring Python's syntax, memory model, functional constructs, standard data structures, and OOP design.
 </p>
 
 <div class="topics-grid">
@@ -161,6 +161,18 @@ features:
     <div class="topic-card-footer">Read Module →</div>
   </a>
 
+  <a class="topic-card" href="./python/oops">
+    <div>
+      <div class="topic-card-header">
+        <span class="topic-badge">Module 11</span>
+        <span style="font-size: 0.75rem; color: var(--vp-c-text-3);">OOP</span>
+      </div>
+      <h3>Object-Oriented Programming</h3>
+      <p>Classes, instances, <code>self</code>, constructors, 4 pillars (Encapsulation, Abstraction, Inheritance, Polymorphism), MRO, and magic dunder methods.</p>
+    </div>
+    <div class="topic-card-footer">Read Module →</div>
+  </a>
+
 </div>
 
 <!-- Author & Platform Section -->
@@ -168,17 +180,17 @@ features:
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 2rem;">
   <div style="flex: 1; min-width: 280px;">
-    <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem; font-weight: 700;">About the Platform</h3>
+    <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem; font-weight: 700;">About devhum</h3>
     <p style="color: var(--vp-c-text-2); font-size: 0.95rem; line-height: 1.6; margin: 0 0 1rem 0;">
-      <strong>HumDev</strong> is authored by <strong>Tanishk Gupta</strong> as an open developer knowledge base. It documents programming fundamentals, system patterns, and practical software engineering experiments.
+      <strong>devhum</strong> is authored by <strong>Tanishk Gupta</strong> as a dedicated developer knowledge platform solely focused on Python programming, language architecture, and clean code patterns.
     </p>
-    <a href="./about" style="font-weight: 600; color: var(--vp-c-brand-1);">Read more about HumDev & the author →</a>
+    <a href="./about" style="font-weight: 600; color: var(--vp-c-brand-1);">Read more about devhum & the author →</a>
   </div>
 
   <div style="flex: 1; min-width: 280px;">
     <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem; font-weight: 700;">Connect & Follow</h3>
     <p style="color: var(--vp-c-text-2); font-size: 0.95rem; line-height: 1.6; margin: 0 0 0.75rem 0;">
-      Follow along for regular technical notes, software design patterns, and engineering insights:
+      Follow along for regular Python notes, language deep dives, and software engineering insights:
     </p>
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
       <a href="https://www.linkedin.com/in/tanishk-gupta18/" target="_blank" rel="noopener noreferrer" style="font-weight: 600; color: var(--vp-c-brand-1);">

@@ -1,11 +1,11 @@
-# HumDev — Learn. Build. Share.
+# devhum — Learn. Build. Share.
 
 [![VitePress](https://img.shields.io/badge/VitePress-1.6.4-2563eb?logo=vite&logoColor=white)](https://vitepress.dev/)
 [![Node](https://img.shields.io/badge/Node.js-%3E%3D18.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Deploy Documentation](https://github.com/tanishkgupta-18/python_resources/actions/workflows/deploy.yml/badge.svg)](https://github.com/tanishkgupta-18/python_resources/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A developer's knowledge space for programming, DSA, AI/ML, system design, and software engineering.
+A developer's knowledge platform solely dedicated to Python programming, language architecture, and clean code.
 
 Built with a lightweight, documentation-first architecture using **VitePress**, **Markdown**, and **TypeScript**, ready for deployment to **GitHub Pages**.
 
@@ -20,7 +20,7 @@ Built with a lightweight, documentation-first architecture using **VitePress**, 
 
 ## 📚 Curriculum & Topics
 
-All notes, syntax rules, and runnable examples have been organized into a structured learning path:
+All notes, syntax rules, and runnable examples are organized into 11 structured learning modules:
 
 1. [**Python Essentials**](docs/python/essentials.md): User input (`input()`), escape sequences (`\"`, `\\`, `\t`), formatted printing, variable assignment, and `NoneType`.
 2. [**Numbers & Arithmetic**](docs/python/numbers.md): Type casting (`int`, `float`, `complex`), floor division (`//`) vs float division (`/`), exponentiation, `math` and `random` modules, and Banker's rounding.
@@ -32,9 +32,10 @@ All notes, syntax rules, and runnable examples have been organized into a struct
 8. [**Lists & Comprehensions**](docs/python/lists.md): Sequence unpacking (`*`, `_`), aggregations, in-place sorting vs `sorted()`, memory copy models (shallow vs deepcopy), functional tools (`map`, `filter`), and list comprehensions.
 9. [**Tuples & Sets**](docs/python/tuples-and-sets.md): Tuple immutability and indexing vs Set uniqueness, mutations (`add`, `remove` vs `discard`), set mathematics (union, intersection, difference), and subset relations.
 10. [**Dictionaries**](docs/python/dictionaries.md): Hash map properties, key immutability rules, safe retrieval with `.get()`, dynamic view objects (`keys`, `values`, `items`), and template initialization via `dict.fromkeys`.
+11. [**Object-Oriented Programming (OOP)**](docs/python/oops.md): Classes, instances, `self`, constructor mechanics (`__init__`), constructor overloading simulation, 4 pillars (Encapsulation with `@property`, Abstraction with `ABC`, Inheritance & MRO with C3 linearization, Polymorphism), and magic dunder methods.
 
 > [!NOTE]
-> All original Python source files (`01_python_essentials.py` through `10_python_dict.py`) are organized into the dedicated [`python_scripts/`](./python_scripts) folder as runnable standalone scripts.
+> All original Python source files (`01_python_essentials.py` through `11_oops.py`) are organized into the dedicated [`python_scripts/`](./python_scripts) folder as runnable standalone scripts.
 
 ---
 
@@ -45,7 +46,7 @@ All notes, syntax rules, and runnable examples have been organized into a struct
 - **Search**: Built-in, zero-dependency instant local fuzzy search.
 - **Code Highlighting**: Syntax highlighting for Python with one-click copy buttons and clear output blocks.
 - **Responsive Layout**: Mobile-first responsive sidebar and navigation drawer.
-- **Future-Proof**: Modular routing structure ready for upcoming sections (C++, Java, DSA, System Design).
+- **Architecture**: Modular Python learning progression.
 
 ---
 

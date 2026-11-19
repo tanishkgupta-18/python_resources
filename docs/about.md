@@ -1,36 +1,36 @@
-# About HumDev
+# About devhum
 
-**HumDev** is a personal developer knowledge platform created to document programming concepts, language mechanics, and software engineering practices.
+**devhum** is a personal developer knowledge platform created solely for **Python** programming, language architecture, and software engineering practices.
 
 The platform is founded on three core principles:
 
-::: tip The HumDev Philosophy
-- **Learn**: Deconstruct complex technical concepts and language internals into intuitive, foundational building blocks.
-- **Build**: Implement real-world code, test edge cases, and craft software solutions grounded in sound engineering principles.
-- **Share**: Learn in public by publishing structured notes, references, and insights for the developer community.
+::: tip The devhum Philosophy
+- **Learn**: Deconstruct complex Python mechanics and language internals into intuitive, foundational building blocks.
+- **Build**: Implement real-world Python code, test edge cases, and craft software solutions grounded in sound engineering principles.
+- **Share**: Learn in public by publishing structured notes, references, and insights for the Python developer community.
 :::
 
 ---
 
 ## What You'll Find Here
 
-HumDev is structured as an engineering knowledge base focused on depth, clarity, and precision:
+devhum is structured as a focused Python engineering knowledge base centered on depth, clarity, and precision:
 
-- **Structured Language Notes**: Deep-dive programming curricula covering fundamentals, memory models, syntax idioms, and standard libraries—starting with a comprehensive 10-module Python series.
+- **Structured Python Curriculum**: Deep-dive notes covering fundamentals, memory models, syntax idioms, standard data structures, and object-oriented design—spanning 11 comprehensive modules.
 - **Verified Code & Outputs**: Every code snippet is self-contained, tested, and accompanied by its verified output and complexity analysis.
-- **Direct Reference**: Quick lookups for syntax rules, data structure behaviors, and common edge cases without fluff.
+- **Direct Developer Reference**: Quick lookups for syntax rules, data structure behaviors, magic dunder methods, and common edge cases without fluff.
 
 ---
 
 ## About the Author
 
-Hi, I'm **Tanishk Gupta**. I am a software engineer passionate about clean architecture, language fundamentals, and continuous learning.
+Hi, I'm **Tanishk Gupta**. I am a software engineer passionate about clean architecture, Python language fundamentals, and continuous learning.
 
-I created HumDev as a curated source of truth for my technical knowledge—a place where developers can quickly look up language nuances, understand foundational mechanics, and strengthen their engineering fundamentals.
+I created devhum as a single, curated source of truth for Python—a place where developers can quickly look up language nuances, understand foundational mechanics, and strengthen their programming knowledge.
 
 ### Connect & Follow
 
-I actively share engineering notes, project updates, and learnings across the following channels:
+I actively share Python notes, project updates, and learnings across the following channels:
 
 - 💼 **LinkedIn**: [linkedin.com/in/tanishk-gupta18](https://www.linkedin.com/in/tanishk-gupta18/)
 - 🐙 **GitHub**: [github.com/tanishkgupta-18](https://github.com/tanishkgupta-18)

@@ -1,6 +1,6 @@
 # Python Learning Roadmap & Overview
 
-Welcome to the **HumDev Python Series**. This documentation track is organized into a progressive learning path designed to take you from core language fundamentals to idiomatic data structures and modern Python idioms.
+Welcome to the **devhum Python Series**. This documentation track is organized into a progressive learning path designed to take you from core language fundamentals to idiomatic data structures and modern object-oriented Python architecture.
 
 Whether you are revising before technical interviews or looking up specific syntax and method behaviors, every module provides clear explanations, executable code examples, and expected outputs.
 
@@ -8,13 +8,14 @@ Whether you are revising before technical interviews or looking up specific synt
 
 ## 🗺️ Learning Path Structure
 
-The curriculum is structured across four key pedagogical pillars:
+The curriculum is structured across five key pedagogical pillars:
 
 ```mermaid
 flowchart LR
     A["1. Fundamentals\n(Essentials, Numbers, Strings)"] --> B["2. Logic & Control\n(Operators, Conditionals, Loops)"]
     B --> C["3. Functions\n(Params, *args/**kwargs, Types)"]
     C --> D["4. Data Structures\n(Lists, Tuples, Sets, Dicts)"]
+    D --> E["5. OOP in Python\n(Classes, 4 Pillars, Dunders)"]
 ```
 
 ---
@@ -33,12 +34,13 @@ flowchart LR
 | [**8. Lists & Comprehensions**](/python/lists) | `python_scripts/08_python_list.py` | Slicing, unpacking (`*`, `_`), methods (`append`, `pop`, `sort`), shallow vs deepcopy, iterators, comprehensions |
 | [**9. Tuples & Sets**](/python/tuples-and-sets) | `python_scripts/09_python_set.py` | Tuple immutability, set uniqueness, mutations (`add`, `remove`, `discard`), union, intersection, difference, subsets |
 | [**10. Dictionaries**](/python/dictionaries) | `python_scripts/10_python_dict.py` | Key-value mapping, key immutability, safe `.get()`, view objects (`keys`, `values`, `items`), mutations, `dict.fromkeys` |
+| [**11. Object-Oriented Programming (OOP)**](/python/oops) | `python_scripts/11_oops.py` | Classes, `__init__`, Encapsulation (`@property`), Abstraction (`ABC`), Inheritance, MRO, Polymorphism, Operator Overloading |
 
 ---
 
 ## 💡 How to Use This Knowledge Base
 
-1. **Sequential Learning**: If you are revising Python, work sequentially through the topics from Topic 1 through Topic 10.
+1. **Sequential Learning**: If you are revising Python, work sequentially through the topics from Topic 1 through Topic 11.
 2. **Quick Reference**: Use the left sidebar or the search bar (`Ctrl + K` or `Cmd + K`) to jump directly to any function, method, or syntax rule.
 3. **Copy & Run**: All code snippets feature a one-click copy button and provide verified outputs so you can immediately see the result without guesswork.
 

@@ -4,9 +4,9 @@ import { defineConfig } from 'vitepress'
 const base = process.env.BASE_PATH || (process.env.GITHUB_ACTIONS ? '/python_resources/' : '/')
 
 export default defineConfig({
-  title: "HumDev",
-  titleTemplate: ":title | HumDev",
-  description: "A developer's knowledge space for Python programming, language mechanics, and software engineering.",
+  title: "devhum",
+  titleTemplate: ":title | devhum",
+  description: "A developer's knowledge platform solely dedicated to Python programming, language architecture, and clean code.",
   base: base,
   lang: 'en-US',
   cleanUrls: true,
@@ -17,25 +17,25 @@ export default defineConfig({
     ['link', { rel: 'alternate icon', type: 'image/svg+xml', href: `${base}logo.svg` }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: 'HumDev' }],
-    ['meta', { property: 'og:title', content: 'HumDev | Learn. Build. Share.' }],
-    ['meta', { property: 'og:description', content: "A developer's knowledge space for Python programming, language mechanics, and software engineering." }],
+    ['meta', { property: 'og:site_name', content: 'devhum' }],
+    ['meta', { property: 'og:title', content: 'devhum | Learn. Build. Share.' }],
+    ['meta', { property: 'og:description', content: "A developer's knowledge platform solely dedicated to Python programming, language architecture, and clean code." }],
     ['meta', { property: 'og:image', content: `https://tanishkgupta-18.github.io/python_resources/og-image.png` }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'HumDev | Learn. Build. Share.' }],
-    ['meta', { name: 'twitter:description', content: "A developer's knowledge space for Python programming, language mechanics, and software engineering." }],
+    ['meta', { name: 'twitter:title', content: 'devhum | Learn. Build. Share.' }],
+    ['meta', { name: 'twitter:description', content: "A developer's knowledge platform solely dedicated to Python programming, language architecture, and clean code." }],
     ['meta', { name: 'twitter:image', content: `https://tanishkgupta-18.github.io/python_resources/og-image.png` }],
   ],
 
   themeConfig: {
-    siteTitle: 'HumDev',
+    siteTitle: 'devhum',
     logo: '/logo.svg',
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Python Notes', link: '/python/' },
+      { text: 'Python Series', link: '/python/' },
       {
         text: 'Topics',
         items: [
@@ -53,7 +53,7 @@ export default defineConfig({
             items: [
               { text: 'Conditional Statements', link: '/python/conditionals' },
               { text: 'Loops & Iteration', link: '/python/loops' },
-              { text: 'Functions', link: '/python/functions' },
+              { text: 'Functions & Scope', link: '/python/functions' },
             ]
           },
           {
@@ -63,6 +63,12 @@ export default defineConfig({
               { text: 'Tuples & Sets', link: '/python/tuples-and-sets' },
               { text: 'Dictionaries', link: '/python/dictionaries' },
             ]
+          },
+          {
+            text: 'Object-Oriented Programming',
+            items: [
+              { text: 'OOP in Python', link: '/python/oops' },
+            ]
           }
         ]
       },
@@ -70,7 +76,6 @@ export default defineConfig({
     ],
 
     sidebar: {
-      // Future-proof modular namespaces for upcoming tracks
       '/python/': [
         {
           text: 'Getting Started',
@@ -106,6 +111,13 @@ export default defineConfig({
             { text: 'Tuples & Sets', link: '/python/tuples-and-sets' },
             { text: 'Dictionaries', link: '/python/dictionaries' },
           ]
+        },
+        {
+          text: 'Object-Oriented Python',
+          collapsed: false,
+          items: [
+            { text: 'Object-Oriented Programming (OOP)', link: '/python/oops' },
+          ]
         }
       ]
     },
@@ -125,7 +137,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'HumDev — Learn. Build. Share.',
+      message: 'devhum — The Python Developer Knowledge Base.',
       copyright: 'Copyright © 2026 Tanishk Gupta. All rights reserved.'
     },
 

@@ -1,25 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
   <defs>
-    <linearGradient id="humDevGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="devhumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
-    <linearGradient id="humDevAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="devhumAccent" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#3b82f6" />
       <stop offset="100%" stop-color="#2563eb" />
     </linearGradient>
   </defs>
   <!-- Background Container -->
-  <rect width="48" height="48" rx="10" fill="url(#humDevGrad)" />
+  <rect width="48" height="48" rx="10" fill="url(#devhumGrad)" />
   <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="9.25" fill="none" stroke="#334155" stroke-width="1.5" />
   
-  <!-- HumDev Monogram (H + Code Bracket) -->
-  <!-- Left Pillar of H -->
-  <path d="M14 14 L14 34" stroke="#f8fafc" stroke-width="3.5" stroke-linecap="round" />
-  <!-- Center Crossbar -->
-  <path d="M14 24 L24 24" stroke="url(#humDevAccent)" stroke-width="3.5" stroke-linecap="round" />
-  <!-- Right Pillar of H transitioning into a code prompt bracket -->
-  <path d="M24 14 L24 34" stroke="#f8fafc" stroke-width="3.5" stroke-linecap="round" />
-  <!-- Code Accent: forward slash / chevron terminal tick -->
-  <path d="M30 18 L36 24 L30 30" stroke="url(#humDevAccent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- "dh" DevHum Monogram -->
+  <!-- 'd' letterform -->
+  <path d="M14 18 C14 15.5 16 14 18.5 14 C21 14 23 15.5 23 18 L23 34" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" fill="none" />
+  <circle cx="18.5" cy="27" r="5" stroke="url(#devhumAccent)" stroke-width="3" fill="none" />
+  
+  <!-- 'h' letterform -->
+  <path d="M28 14 L28 34" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" />
+  <path d="M28 24 C29.5 21.5 32 21 34.5 21 C36.5 21 38 22.5 38 25 L38 34" stroke="url(#devhumAccent)" stroke-width="3" stroke-linecap="round" fill="none" />
 </svg>
